@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TripMe | Vila Encantada</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="brand">
+        <span class="brand-mark">TripMe</span>
+        <span class="brand-tagline">Vilarejos Europeus</span>
+      </div>
+      <nav aria-label="Navegação principal">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#tripme">TripMe</a></li>
+          <li><a href="#meetus">MeetUs</a></li>
+          <li><a href="#advice">Advice</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#tripme">Planeje agora</a>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-label="Banner principal">
+        <div class="hero-content">
+          <p class="eyebrow">Vilarejo de Hallstatt, Áustria</p>
+          <h1>Descubra o sossego à beira do lago</h1>
+          <p>
+            Um refúgio alpino cercado por montanhas, vielas floridas e cafés
+            acolhedores. Explore com a TripMe caminhos pouco conhecidos e viva
+            uma experiência encantadora.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#tripme">Explorar roteiros</a>
+            <a class="btn ghost" href="#advice">Ver conselhos</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="tripme">
+        <div class="section-heading">
+          <p class="eyebrow">TripMe</p>
+          <h2>Trilhas lentas por vilas charmosas</h2>
+          <p>
+            Montamos experiências imersivas para você caminhar, provar e se
+            conectar com o cotidiano de destinos europeus pouco explorados.
+          </p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Sabores locais</h3>
+            <p>
+              Degustações guiadas em mercados ao amanhecer, diretamente com
+              produtores que mantêm tradições centenárias.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Rotas cênicas</h3>
+            <p>
+              Caminhadas leves entre vilarejos, com mapas offline e guias que
+              contam histórias da região em cada parada.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Hospedagem acolhedora</h3>
+            <p>
+              Chalés e pousadas familiares com vista para lagos cristalinos e
+              lareiras sempre acesas no fim do dia.
+            </p>
+          </article>
+        </div>
+        <a class="back-to-top" href="#top">⬆ Voltar ao topo</a>
+      </section>
+
+      <section class="section section-alt" id="meetus">
+        <div class="section-heading">
+          <p class="eyebrow">MeetUs</p>
+          <h2>Quem cuida da sua jornada</h2>
+          <p>
+            Somos guias e storytellers apaixonados por localidades pequenas.
+            Pesquisamos cada detalhe para que você viaje com leveza.
+          </p>
+        </div>
+        <div class="team">
+          <article>
+            <h3>Ana · Curadora cultural</h3>
+            <p>
+              Seleciona ateliers e encontros com artistas residentes para que
+              você vivencie a cena criativa local.
+            </p>
+          </article>
+          <article>
+            <h3>Mateo · Guia alpino</h3>
+            <p>
+              Especialista em rotas seguras entre lagos e bosques, ajusta cada
+              passo ao seu ritmo.
+            </p>
+          </article>
+          <article>
+            <h3>Lina · Concierge</h3>
+            <p>
+              Organiza transfers sustentáveis, reservas e mimos que fazem a
+              diferença em cada pousada.
+            </p>
+          </article>
+        </div>
+        <a class="back-to-top" href="#top">⬆ Voltar ao topo</a>
+      </section>
+
+      <section class="section" id="advice">
+        <div class="section-heading">
+          <p class="eyebrow">Advice</p>
+          <h2>Conselhos rápidos para aproveitar</h2>
+        </div>
+        <ul class="tips">
+          <li>
+            <strong>Leve camadas.</strong> O clima muda rápido próximo aos
+            Alpes, então prefira roupas leves sobrepostas.
+          </li>
+          <li>
+            <strong>Respire o ritmo local.</strong> Cafés e mercearias fecham no
+            horário do almoço — programe-se para pausas longas.
+          </li>
+          <li>
+            <strong>Respeite o silêncio.</strong> Muitas vilas adotam noites
+            silenciosas após as 22h para preservar a tranquilidade.
+          </li>
+          <li>
+            <strong>Prefira pagamentos locais.</strong> Euros em espécie ajudam
+            pequenos comerciantes sem taxas extras.
+          </li>
+        </ul>
+        <div class="newsletter">
+          <h3>Receba roteiros mensais</h3>
+          <form>
+            <label class="sr-only" for="email">Seu melhor e-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="nome@email.com"
+              required
+            />
+            <button type="submit">Assinar novidades</button>
+          </form>
+        </div>
+        <a class="back-to-top" href="#top">⬆ Voltar ao topo</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year">2025</span> TripMe · Hallstatt & além</p>
+      <a href="#top">Voltar para o início</a>
+    </footer>
+  </body>
+</html>
